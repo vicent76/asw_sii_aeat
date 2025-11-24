@@ -1,5 +1,5 @@
 {
-    "tipo": "TEST",
+    "tipo": "PROD",
     "apiPort": 5080,
     "apiHost": "127.0.0.1",
     "smtpConfig": {
@@ -13,22 +13,28 @@
     },
     "destinatario": "rafa@myariadna.com,ragare@gmail.com",
     "certs":{
-        "B96470190": {
-            "url": "C:\\ElementosFirma\\Ariadna\\ariadnaRaf.pfx",
-            "pass": "20ariadna19"
+        "B98877806": {
+            "url": "E:\\node_apps\\asw_sii_aeat\\cert\\radiotaxi.pfx",
+            "pass": "RadioTaxi2024"
         },
-        "A46103594": {
-            "url": "/tmp/lai.pfx",
-            "pass": "Jgaq3524"
+        "F46221503": {
+            "url": "E:\\node_apps\\asw_sii_aeat\\cert\\tele2024.pfx",
+            "pass": "#!qwskws#adsadzmaz#"
         }        
     },
     "wsdl":{
-        "facturasEmitidas": "http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroFactEmitidas.wsdl",
-        "facturasRecibidas": "http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroFactRecibidas.wsdl"
+        "facturasEmitidas": "https://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroFactEmitidas.wsdl",
+        "facturasRecibidas": "https://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroFactRecibidas.wsdl"
     },
     "xsd": {
-        "facturasEmitidas": "http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroInformacion.xsd",
-        "facturasRecibidas": "http://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroInformacion.xsd"
+        "facturasEmitidas": "https://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroInformacion.xsd",
+        "facturasRecibidas": "https://www.agenciatributaria.es/static_files/AEAT/Contenidos_Comunes/La_Agencia_Tributaria/Modelos_y_formularios/Suministro_inmediato_informacion/FicherosSuministros/V_1_1/SuministroInformacion.xsd"
     },
-    "Axapta": "S"
+    "ca": {
+    	"root": "E:\\node_apps\\asw_sii_aeat\\cert\\ACROOT_aeat.crt",
+    	"intermedio1": "/Cert/Certificado/ACINTERMEDIA1_aeat.crt",
+    	"intermedio2": "/Cert/Certificado/ACINTERMEDIA2_aeat.crt"
+	},
+
+    "Axapta": "N"
 }

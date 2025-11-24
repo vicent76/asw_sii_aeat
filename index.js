@@ -5,6 +5,7 @@
 // Author: Rafael Garcia (rafa@myariadna.com)
 // 2015 [License CC-BY-NC-4.0]
 
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 // required modules
 var fs = require('fs');
