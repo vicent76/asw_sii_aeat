@@ -1,8 +1,8 @@
 {
-    "user": "sa",
-    "password": "20Aritel12",
-    "server": "demos.ariadnasw.com",
-    "database": "AxSii",
+    "user": "app_d365",
+    "password": "xqsRWZh9cEbdC64n",
+    "server": "intelligenceax.francecentral.cloudapp.azure.com",
+    "database": "AriSII_Test",
     "options": {
         "trustServerCertificate": true
     }
